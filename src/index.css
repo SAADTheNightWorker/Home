@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.custom-icon {
+  @apply text-4xl w-12 h-12 transition-transform duration-300 hover:text-black hover:scale-110;
+}
